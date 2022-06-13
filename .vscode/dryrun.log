@@ -1,0 +1,62 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/dcloud/push_swap_Dcloud'
+gcc -Wall -Wextra -Werror -MMD -g -I./include/ -I./libft/ -c src/utils.c -o src/utils.o
+gcc -Wall -Wextra -Werror -MMD -g -I./include/ -I./libft/ -c src/init_struct.c -o src/init_struct.o
+gcc -Wall -Wextra -Werror -MMD -g -I./include/ -I./libft/ -c src/main.c -o src/main.o
+gcc -Wall -Wextra -Werror -MMD -g -I./include/ -I./libft/ -c src/valid.c -o src/valid.o
+gcc -Wall -Wextra -Werror -MMD -g -I./include/ -I./libft/ -c src/ft_push.c -o src/ft_push.o
+gcc -Wall -Wextra -Werror -MMD -g -I./include/ -I./libft/ -c src/ft_rot.c -o src/ft_rot.o
+gcc -Wall -Wextra -Werror -MMD -g -I./include/ -I./libft/ -c src/ft_swap.c -o src/ft_swap.o
+gcc -Wall -Wextra -Werror -MMD -g -I./include/ -I./libft/ -c src/sort_three_elems.c -o src/sort_three_elems.o
+gcc -Wall -Wextra -Werror -MMD -g -I./include/ -I./libft/ -c src/sort_five_elems.c -o src/sort_five_elems.o
+gcc -Wall -Wextra -Werror -MMD -g -I./include/ -I./libft/ -c src/arr_sort.c -o src/arr_sort.o
+gcc -Wall -Wextra -Werror -MMD -g -I./include/ -I./libft/ -c src/big_sort.c -o src/big_sort.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C ./libft/
+make[1]: Entering directory `/Users/dcloud/push_swap_Dcloud/libft'
+gcc -Wall -Wextra -Werror -c ft_isalpha.c -o ft_isalpha.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_isdigit.c -o ft_isdigit.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_isalnum.c -o ft_isalnum.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_isascii.c -o ft_isascii.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_isprint.c -o ft_isprint.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_strlen.c -o ft_strlen.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_memset.c -o ft_memset.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_bzero.c -o ft_bzero.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_memcpy.c -o ft_memcpy.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_memmove.c -o ft_memmove.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_strlcpy.c -o ft_strlcpy.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_strlcat.c -o ft_strlcat.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_toupper.c -o ft_toupper.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_tolower.c -o ft_tolower.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_strchr.c -o ft_strchr.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_strrchr.c -o ft_strrchr.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_strncmp.c -o ft_strncmp.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_memchr.c -o ft_memchr.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_memcmp.c -o ft_memcmp.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_strnstr.c -o ft_strnstr.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_atoi_ps.c -o ft_atoi_ps.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_calloc.c -o ft_calloc.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_strdup.c -o ft_strdup.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_striteri.c -o ft_striteri.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_putchar_fd.c -o ft_putchar_fd.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_putstr_fd.c -o ft_putstr_fd.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_putendl_fd.c -o ft_putendl_fd.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_putnbr_fd.c -o ft_putnbr_fd.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_substr.c -o ft_substr.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_strjoin.c -o ft_strjoin.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_strtrim.c -o ft_strtrim.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_strmapi.c -o ft_strmapi.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_itoa.c -o ft_itoa.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_split.c -o ft_split.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_lstnew.c -o ft_lstnew.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_lstadd_front.c -o ft_lstadd_front.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_lstsize.c -o ft_lstsize.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_lstlast.c -o ft_lstlast.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_lstadd_back.c -o ft_lstadd_back.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_lstdelone.c -o ft_lstdelone.o -I libft.h
+gcc -Wall -Wextra -Werror -c ft_lstclear.c -o ft_lstclear.o -I libft.h
+ar rc libft.a ft_isalpha.o ft_isdigit.o ft_isalnum.o ft_isascii.o ft_isprint.o ft_strlen.o ft_memset.o ft_bzero.o ft_memcpy.o ft_memmove.o ft_strlcpy.o ft_strlcat.o ft_toupper.o ft_tolower.o ft_strchr.o ft_strrchr.o ft_strncmp.o ft_memchr.o ft_memcmp.o ft_strnstr.o ft_atoi_ps.o ft_calloc.o ft_strdup.o ft_striteri.o ft_putchar_fd.o ft_putstr_fd.o ft_putendl_fd.o ft_putnbr_fd.o ft_substr.o ft_strjoin.o ft_strtrim.o ft_strmapi.o ft_itoa.o ft_split.o ft_lstnew.o ft_lstadd_front.o ft_lstsize.o ft_lstlast.o ft_lstadd_back.o ft_lstdelone.o ft_lstclear.o
+ranlib libft.a
+make[1]: Leaving directory `/Users/dcloud/push_swap_Dcloud/libft'
+gcc -Wall -Wextra -Werror -MMD -g -I./include/ -I./libft/ ./libft/libft.a src/utils.o src/init_struct.o src/main.o src/valid.o src/ft_push.o src/ft_rot.o src/ft_swap.o src/sort_three_elems.o src/sort_five_elems.o src/arr_sort.o src/big_sort.o -o push_swap
+make: Leaving directory `/Users/dcloud/push_swap_Dcloud'
+ 
